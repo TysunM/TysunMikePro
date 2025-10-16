@@ -1,0 +1,32 @@
+<!doctype html><html><head>
+<meta charset="utf-8"><title>Dashboard</title>
+<link rel="stylesheet" href="/css/portal.css">
+</head><body>
+<div class="container">
+  <div class="card profile-header">
+    <img id="user-avatar" class="profile-pic" alt="Avatar">
+    <div><h2 id="user-name"></h2>
+      <div class="progress-wrap">
+        <div class="progress-bar"><div id="loyalty-progress" class="progress"></div></div>
+        <small id="loyalty-label"></small>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid grid-3">
+    <div class="card">
+      <h3>Payment history</h3>
+      <ul id="payments" class="list"></ul>
+    </div>
+    <div class="card">
+      <h3>Upcoming consultations</h3>
+      <ul id="consultations" class="list"></ul>
+    </div>
+    <div class="card">
+      <h3>Active projects</h3>
+      <div id="projects"></div>
+    </div>
+  </div>
+</div>
+<script src="/js/portal.js"></script>
+</body></html>
